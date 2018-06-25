@@ -1,4 +1,6 @@
-# Provides the p-value for a joint test of association between a phenotype and a set of genetic variants (SNPs) by combining marginal p-values using the Fisher method. See Fisher, R.A. (1925) Statistical Methods for Research Workers.
+# GSAfisherCombined
+## Definition 
+Provides the p-value for a joint test of association between a phenotype and a set of genetic variants (SNPs) by combining marginal p-values using the Fisher method. See Fisher, R.A. (1925) Statistical Methods for Research Workers.
 ## Installation
 ### From GitHub
 ```r
@@ -20,7 +22,7 @@ x = Numeric set of marginal p-values (one vector or a sinlge p-value).
 ```
 ### Value
 ```r
-p	= Fisher method combined p-value.
+p=Fisher method combined p-value.
 ```
 ## Example
 ```r
